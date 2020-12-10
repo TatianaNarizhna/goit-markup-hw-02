@@ -1,0 +1,113 @@
+/* ++цвет основного текста  #212121; */
+/* ++вторичный текст серый <p>, мейл+тел #757575; */
+/*++ адрес прозрачность rgba(255, 255, 255, 0.6); */
+/* ++цвет основной надписи белый H1  #FFFFFF; */
+/* ++ акцент голубой #2196F3; */
+/* ++ вторичный темно-серый background  #2F303A; */
+/*  ++вторичный белый background (шапка) #FFFFFF; */
+/*  вторичный почти белый background #F5F4FA; */
+/*  ++основной background  бело-серый #E5E5E5; */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --transparent-gray: rgba(255, 255, 255, 0.6);
+  --white-hero-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-background-wg: #e5e5e5;
+  --secondary-bgc-gray: #2f303a;
+  --secondary-bgc-white: #ffffff;
+  --secondary-bgc-halfwhite: #f5f4fa;
+}
+
+.page {
+  background-color: var(--primary-background-wg);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* стилизация хедер */
+.header {
+  background-color: var(--white-hero-color);
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-studio {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* навигация сайта */
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .active:hover,
+.site-nav .active:focus {
+  color: var(--accent-color);
+}
+
+.list .address {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+}
+
+.list .active:hover,
+.list .active:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--secondary-bgc-gray);
+}
+
+/* секция */
+.section {
+  background-color: var(--primary-background-wg);
+}
+
+.bgc {
+  background-color: var(--secondary-bgc-halfwhite);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.features .section-list {
+  color: var(--primary-text-color);
+}
+
+.features .content {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--white-hero-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-bgc-gray);
+}
