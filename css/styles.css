@@ -53,7 +53,7 @@
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -66,7 +66,7 @@
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -78,6 +78,16 @@
 /* Hero */
 .hero {
   background-color: var(--secondary-bgc-gray);
+}
+.hero .hero-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* секция */
@@ -91,6 +101,10 @@
 
 .section-title {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .features .section-list {
@@ -101,13 +115,90 @@
   color: var(--secondary-text-color);
 }
 
+.section .content-advantages {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.proffesion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
 /* Button */
 .button {
   color: var(--white-hero-color);
   background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.filtr-all {
+  color: var(--white-hero-color);
+  background-color: var(--accent-color);
+}
+
+.list .filtr-all:hover,
+.list .filtr-all:focus {
+  color: var(--white-hero-color);
+}
+
+.list .filtr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.list .projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list .filtr-name {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* подчеркивание */
+a {
+  text-decoration: none;
 }
 
 /* footer */
 .footer {
   background-color: var(--secondary-bgc-gray);
+}
+
+.footer .studio-logo {
+  color: var(--primary-text-color);
+}
+
+.footer .adress-footer {
+  color: var(--white-hero-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .list-footer {
+  color: var(--transparent-gray);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
