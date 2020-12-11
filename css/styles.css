@@ -40,30 +40,22 @@ body {
   line-height: 1.19;
 }
 
-.logo-studio {
-  color: var(--primary-text-color);
-}
-
 .list {
   list-style: none;
 }
 
-/* навигация сайта */
-.site-nav .link {
+/* навигация сайта, список контактов+span STUDIO */
+.site-nav .link,
+.logo-studio {
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.site-nav .active:hover,
-.site-nav .active:focus {
-  color: var(--accent-color);
 }
 
 .list .address {
   color: var(--secondary-text-color);
+}
+
+.site-nav .link,
+.list .address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,40 +113,36 @@ body {
   line-height: 1.71;
 }
 
-.name {
-  font-weight: 500;
+.name,
+.proffesion {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+.name {
+  font-weight: 500;
 }
 
 .proffesion {
   font-weight: normal;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
 }
 
 /* Button */
 .button {
-  color: var(--white-hero-color);
   background-color: var(--accent-color);
+  color: var(--white-hero-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.filtr-all {
-  color: var(--white-hero-color);
+.section .filter:hover,
+.section .filter:focus {
   background-color: var(--accent-color);
-}
-
-.list .filtr-all:hover,
-.list .filtr-all:focus {
   color: var(--white-hero-color);
 }
 
-.list .filtr {
+.list .filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -168,7 +156,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.list .filtr-name {
+.list .filter-name {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
@@ -191,13 +179,14 @@ a {
 .footer .adress-footer {
   color: var(--white-hero-color);
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .footer .list-footer {
   color: var(--transparent-gray);
+}
+
+.footer .adress-footer,
+.footer .list-footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
