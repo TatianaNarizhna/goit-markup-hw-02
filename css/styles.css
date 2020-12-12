@@ -21,6 +21,7 @@
 }
 
 body {
+  background-color: var(--white-hero-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -67,6 +68,10 @@ body {
   color: var(--accent-color);
 }
 
+.header .item {
+  color: var(--accent-color);
+}
+
 /* Hero */
 .hero {
   background-color: var(--secondary-bgc-gray);
@@ -83,14 +88,14 @@ body {
 }
 
 /* секция */
-.section {
-  background-color: var(--primary-background-wg);
-}
 
 .bgc {
   background-color: var(--secondary-bgc-halfwhite);
 }
 
+.bgc-portfolio {
+  background-color: var(--white-hero-color);
+}
 .section-title {
   color: var(--primary-text-color);
   font-weight: bold;
