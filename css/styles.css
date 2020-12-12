@@ -72,7 +72,7 @@ body {
   background-color: var(--secondary-bgc-gray);
 }
 .hero .hero-title {
-  color: #ffffff;
+  color: var(--white-hero-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
