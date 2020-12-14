@@ -42,9 +42,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-
+/* сброс точек в списке + margin/padding */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* навигация сайта, список контактов+span STUDIO */
@@ -78,6 +80,8 @@ body {
   background-color: var(--secondary-bgc-gray);
 }
 .hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--white-hero-color);
   font-style: normal;
   font-weight: 900;
@@ -86,6 +90,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid red;
 }
 
 /* секция */
@@ -196,4 +201,14 @@ a {
 .footer .list-footer:hover,
 .footer .list-footer:focus {
   color: var(--accent-color);
+}
+
+/* geometry styles */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
 }
